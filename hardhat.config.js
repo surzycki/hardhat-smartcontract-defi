@@ -36,9 +36,6 @@ module.exports = {
         deployer: {
             default: 0,
         },
-        player: {
-            default: 1,
-        },
     },
     mocha: {
         timeout: 300_000, // 200 seconds max until fail
