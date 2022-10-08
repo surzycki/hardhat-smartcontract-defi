@@ -8,8 +8,8 @@ This project will use a forked mainet chain to:
 
 Notes: Tradeoffs for forking mainnet
 
-Pros: Quick, easy, resembles what is on the mainnet
-Cons: We need an API, some contract are complex to work with (mocks might be better)
+-   Pros: Quick, easy, resembles what is on the mainnet
+-   Cons: We need an API, some contract are complex to work with (mocks might be better)
 
 ## Getting started
 
