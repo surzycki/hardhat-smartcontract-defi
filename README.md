@@ -14,7 +14,8 @@ Cons: We need an API, some contract are complex to work with (mocks might be bet
 ## Getting started
 
 ```sh
-cp .env.example .env # Setup ENV file
+# Setup ENV file, only the MAINNET_RPC_URL is necessary in this example
+cp .env.example .env
 
 yarn install
 
