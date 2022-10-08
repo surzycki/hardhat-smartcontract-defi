@@ -14,6 +14,9 @@ async function main() {
     // approve
     await approveErc20(wethTokenAddress, lendingPool.address, AMOUNT, deployer)
     console.log("Depositing...")
+    // Magic number refers to the referal code parameter in this case 0
+    //
+    // @see https://github.comdeposit/aave/protocol-v2/blob/master/contracts/interfaces/ILendingPool.sol#L240
     await lendingPool.deposit(wethTokenAddress, AMOUNT, deployer, 0)
     console.log("Deposited")
 
